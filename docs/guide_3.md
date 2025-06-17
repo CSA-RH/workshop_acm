@@ -4,7 +4,13 @@ At a high level Cluster Lifecycle management is about creating, upgrading, and d
 ## Create Credential 
 In order to create a new OpenShift cluster in the AWS cloud we will need these keys to create a Provider Connection. On the left bar, select Credentials and then select Add Credential.
 
-NOTE: The credential has been already created on your behalf. For your reference the following is the required configuration:
+**NOTE: The credential has been already created and setup on your behalf, so you dont have to take any action.**
+
+For your reference the following is the required configuration:
+
+- Open the OpenShift Hub cluster console 
+- in the left tab navidate to Credentials.
+- press  button *Add Credential*
 
 ![Alt text](../images/credentials.png?raw=true "credentials")
 
@@ -13,11 +19,15 @@ You will need to provide the connection details:
 - Credential Name:  aws
 - Namespace: open-cluster-management
 - Base DNS Domain:  Domain of the cluster
+- Press Next
 - Access Key ID:  AWS Key Id
 - Secret Access Key ID: AWS Access Key
-- Red Hat OpenShift pull secret:  Get from your Red Hat login 
+- Press Next
+- Leave empty the Proxies or additional CAs
+- Press Next
+- Red Hat OpenShift pull secret. 
 - SSH private and public keys(optional). Note that the key pair needs to be in the PEM format.
-- Click NEXT, verify the information.
+- Click NEXT, review and create.
 
 Please refer to [Creating a cloud connection for Amazon Web Services](https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/2.8/html/clusters/cluster_mce_overview#creating-a-credential-for-amazon-web-services) and this [link](https://docs.openshift.com/container-platform/4.13/installing/installing_aws/installing-aws-default.html#ssh-agent-using_installing-aws-default) for more information.
 

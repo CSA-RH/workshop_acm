@@ -8,6 +8,7 @@ https://docs.google.com/spreadsheets/d/176VbnetfkOUoRL6NHjnuuhXixSSTwjy_nSAtu4Qk
 
 
 ## Login to the OpenShift HUB Console
+Login to the OpenShift Hub cluster console with the credentials provided.
 
 ## Login to the Bastion Host
-Login with the credentials
+Open a shell and login to the bastion host with the credentials provided.
