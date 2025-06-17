@@ -65,7 +65,7 @@ In this exercise we will show you how to create a single node cluster:
 - Select Amazon Web services
 - Select Standalone
 - Select the Infrastructure provider credential called AWS
-    - Name cluster: cluster1
+    - Name cluster: cluster2-sno
     - Leave the Cluster set empty
     - Select a Release Image, choose OCP 4.18 version or whatever is newest
     - Add a label of `environment=qa`. 
