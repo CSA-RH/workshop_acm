@@ -54,7 +54,7 @@ Please refer to [Creating a cloud connection for Amazon Web Services](https://ac
 
 In about 45 minutes this new cluster will be ready to go!  
 
-    ![Alt text](../images/clustercreate11.png?raw=true "clustercreate11")
+![Alt text](../images/clustercreate11.png?raw=true "clustercreate11")
 
 ## Creating a Single Node Cluster (SNO) in AWS
 
