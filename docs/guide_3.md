@@ -19,15 +19,12 @@ You will need to provide the connection details:
 - Credential Name:  aws
 - Namespace: open-cluster-management
 - Base DNS Domain:  Domain of the cluster
-- Press Next
 - Access Key ID:  AWS Key Id
 - Secret Access Key ID: AWS Access Key
-- Press Next
 - Leave empty the Proxies or additional CAs
-- Press Next
 - Red Hat OpenShift pull secret. 
 - SSH private and public keys(optional). Note that the key pair needs to be in the PEM format.
-- Click NEXT, review and create.
+- Review and create.
 
 Please refer to [Creating a cloud connection for Amazon Web Services](https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/2.8/html/clusters/cluster_mce_overview#creating-a-credential-for-amazon-web-services) and this [link](https://docs.openshift.com/container-platform/4.13/installing/installing_aws/installing-aws-default.html#ssh-agent-using_installing-aws-default) for more information.
 
