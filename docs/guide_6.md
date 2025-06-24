@@ -37,7 +37,7 @@ View system alerts, critical application metrics, and overall system health. Sea
     ```sh
     export AWS_ACCESS_KEY_ID=<YOUR_AWS_ACCESS_KEY_ID>
     export AWS_SECRET_ACCESS_KEY=<YOUR_AWS_SECRET_ACCESS_KEY>
-    export YOUR_S3_BUCKET=${grafana-$GUID}
+    export YOUR_S3_BUCKET=grafana-${GUID}
     ```
 
     ```sh
