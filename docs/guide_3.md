@@ -87,3 +87,6 @@ In this exercise we will show you how to create a single node cluster:
         ![Alt text](../images/clustercreate23.png?raw=true "clustercreate23")
 
     - Click on CREATE.
+
+## Continue to the next chapter
+https://github.com/CSA-RH/workshop_acm/blob/main/docs/guide_4.md
