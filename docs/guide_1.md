@@ -1,7 +1,7 @@
 
 # Introduction
 
-This workshop relies on the AWS Infrastructure and the objective is to have a overview of the features that ACM offers. It will cover a subset isnt by any mean
+This workshop relies on the AWS Infrastructure and the objective is to have a overview of the features that ACM offers.
 
 This hands on Workshop is running on AWS cloud hyperscaller and provides an overview of the Red Hat ACM (Advanced Cluster Management). It will demonstrate key features that will help understand how ACM can be used to manage the:
 - Lifecycle of the OpenShift spoke clusters, such as creation of clusters. 
