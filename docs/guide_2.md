@@ -12,3 +12,6 @@ Login to the OpenShift Hub cluster console with the credentials provided.
 
 ## Login to the Bastion Host
 Open a shell and login to the bastion host with the credentials provided.
+
+## Continue with the next Chapter
+https://github.com/CSA-RH/workshop_acm/blob/main/docs/guide_3.md
