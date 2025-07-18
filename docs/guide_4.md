@@ -124,3 +124,6 @@ Feel free to explore around ArgoCD
 You have now completed the overview of the Application Lifecycle functionality in RHACM.
 
 You successfully deployed an application to a target cluster using RHACM. This approach leveraged a Git repository which housed all of the manifests that defined your application. RHACM was able to take those manifests and use them as deployables, which were then deployed to the target clusters.
+
+## Continue to the next chapter
+https://github.com/CSA-RH/workshop_acm/blob/main/docs/guide_5.md
