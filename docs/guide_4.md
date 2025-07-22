@@ -16,7 +16,7 @@ Application Lifecycle functionality in RHACM provides the processes that are use
 
     ![Alt text](../images/application2.png?raw=true "application2")
 
-**Deploy ArgoCD Operator**
+**Deploy ArgoCD Operator in HUB Cluster**
 
 - In RHACM, navigate to the MultiCluster Switcher and select Local-Cluster  to see the OCP UI.
 
