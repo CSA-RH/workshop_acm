@@ -63,7 +63,7 @@ You can find some examples of policies in the [Collection of policy examples for
 ## Deploying Policies with Policy Generator
 
 This Policy Generator definition will achieve 2 configuration policies:
-- **openshift-gitops-installed**: The goal of the first one is to inform if the OpenShift GitOps operator is installed on managed clusters.
+- **openshift-gitops-installed**: The goal of the first one is to inform if the OpenShift GitOps operator is installed on the Hub cluster.
 - **kubeadmin-removed**: The goal of this second policy is to inform if the kubeadmin user is removed from managed clusters.
 
 Both policies are informative only and will only execute them manually to showcase how to resolve issues.
