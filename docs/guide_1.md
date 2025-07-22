@@ -11,4 +11,4 @@ This hands on Workshop is running on AWS cloud hyperscaller and provides an over
 - Governance Risc and Compliance, to apply policies that control the allowed configurations.
 - Observability, from ACM having visibility of the metrics of the overal spoke clusters using Grafana. 
 
-https://github.com/CSA-RH/workshop_acm/blob/main/docs/guide_2.md
+https://github.com/CSA-RH/workshop_acm/blob/main/docs/guide_3.md
