@@ -101,7 +101,9 @@ In order to deliver these policies we will need to leverage the RHACM Applicatio
 - Under repository types, select the GIT repository
 - URL: https://github.com/levenhagen/demo-policygenerator.git
 - Branch: main
-- Under Select cluster for application deployment, Select global clusterSet and Deploy only to local cluster 
+- Under Select cluster for application deployment,
+    - Select global clusterSet
+    - and Deploy only to local cluster 
     - Label: name - equals any of - Value: local-cluster
 - Verify all the information is correct. Click Create
 - It will take a few minutes to deploy the application, Click on the Topology Tab to view and verify that all of the circles are green.
