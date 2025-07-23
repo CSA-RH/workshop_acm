@@ -1,7 +1,7 @@
 # Governance, Risk, and Compliance
 ## Creating Policies in ACM
 
-At this point, you have completed the overview labs for Cluster Lifecycle and Application Lifecycle capabilities in RHACM. In the Cluster Lifecycle Lab, you learned how RHACM can help manage the lifecycles of your Kubernetes clusters, including both deploying new clusters and importing existing clusters. In that lab, you configured your RHACM instance to manage an OpenShift cluster.
+At this point, you have completed the overview labs for Cluster Lifecycle and Application Lifecycle capabilities in RHACM. In the Cluster Lifecycle Lab, you learned how RHACM can help manage the lifecycles of your Kubernetes clusters, in that lab, you configured your RHACM instance to manage an OpenShift cluster.
 
 In the Application Lifecycle Lab, you continued exploring RHACM functionality and learned how to deploy and configure an application. You used the cluster that you added in the first module as the target for deploying an application.
 
@@ -9,13 +9,6 @@ Now that you have a cluster and a deployed application, you need to make sure th
 Review GRC Functionality
 
 To begin, it is important to define exactly what GRC is. In RHACM, you build policies that are applied to managed clusters. These policies can do different things, which are described below, but they ultimately serve to govern the configurations of your clusters. This governance over your cluster configurations reduces risk and ensures compliance with standards defined by stakeholders, which can include security teams and operations teams
-
-This table describes the two types of policy controllers available in RHACM along with the remediation mode they support:
-
-| Policy Controller | Purpose | Enforce or Inform |
-|----------|----------|----------|
-| Configuration | Used to configure any Kubernetes resource across your clusters. Where these resources are created or configured is determined by the namespaces you include (or exclude) in the policy. | Both |
-| Certificate | Used to detect certificates that are close to expiring. You can configure the certificate policy controller by updating the minimum duration parameter in your controller policy. When a certificate expires in less than the minimum duration, the policy becomes noncompliant. Certificates are identified from secrets in the included namespaces. | Inform |
 
 This is a complex and emerging/evolving topic, and this course is only providing an overview. Please consult the [GRC product documentation](https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_management_for_kubernetes/2.12/html/governance/index) for more details on any of these policy controllers.
 
